@@ -1,0 +1,18 @@
+aside{
+    margin: 0px;
+    padding:0px;
+
+}
+#sidebar{
+    background: #022126;
+    width: 200px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: -200px;
+    top: 0px;
+
+}
+.style{
+    "color=#ffffff";
+}
