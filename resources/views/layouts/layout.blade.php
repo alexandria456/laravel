@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.82.0">
-    <title>Album example · Bootstrap v5.0</title>
+    <title>Booking</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
 
     <link href="/css/main.css" rel="stylesheet">
@@ -26,7 +26,7 @@
                         <h4 class="text-white">Contact</h4>
                         <ul class="list-unstyled">
                             <li><a href="/" class="text-white">Home</a></li>
-                            <li><a href="/page/about" class="text-white">About</a></li>
+                            <li><a href="/Admin" class="text-white">Admin</a></li>
 
                         </ul>
                     </div>
