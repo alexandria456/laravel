@@ -11,13 +11,19 @@ class HomeController extends Controller
 {
     public function index(Request $request)
     {
+        $flights = flight::where([
+            ['Destination', '!=', Null],
+            [function ($query) use ($request) {
+                if (($s = $request->s)) {
+                    $query->orWhere('Destination', 'LIKE', '%' . $s . '%')->get();
+                }
+            }
+            ]
+        ])
+            ->paginate(5);
 
-        //$laras = DB::select("SELECT * FROM laras");
-        // return $laras
+        return view('home', compact('flights'))->with('s', (request()->input('page', 1)-1)*5);
 
-
-
-           return view('home');
 
 
     }
